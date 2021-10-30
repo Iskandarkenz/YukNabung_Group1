@@ -1,0 +1,15 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/miExit"
+        android:title="Keluar"
+        android:icon="@drawable/ic_exit"/>
+
+    <item android:id="@+id/placeholder"
+        android:title=" "/>
+
+    <item android:id="@+id/miSettings"
+        android:title="Opsi"
+        android:icon="@drawable/ic_settings"/>
+
+</menu>
