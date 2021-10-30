@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YukNabung_Group1">
         <activity
+            android:name=".TampilanEditGitarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TampilanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".InsertGambarActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
