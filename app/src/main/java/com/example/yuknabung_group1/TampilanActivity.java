@@ -9,6 +9,6 @@ public class TampilanActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tampilan);
+        setContentView(R.layout.activity_nominal_terkumpul);
     }
 }

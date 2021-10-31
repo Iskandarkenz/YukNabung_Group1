@@ -9,6 +9,6 @@ public class TampilanEditGitarActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tampilan_edit_gitar);
+        setContentView(R.layout.activity_edit_target_gitar);
     }
 }
