@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.yuknabung_group1">
-    <!--//Adding Read External Storage Permission-->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -13,18 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YukNabung_Group1">
         <activity
-            android:name=".Activity_Login"
+            android:name=".tambah_target"
             android:exported="true" />
         <activity
-            android:name=".Activity_StartMenu"
+            android:name=".Halaman1Activity"
             android:exported="true" />
         <activity
             android:name=".DaftarActivity"
             android:exported="true" />
         <activity
-            android:name=".Activity_AddTarget"
-            android:exported="true"
-            tools:ignore="Instantiatable" />
+            android:name=".MasukActivity"
+            android:exported="true" />
         <activity
             android:name=".Insert_Nominal_Sepatu"
             android:exported="true" />
@@ -47,14 +43,14 @@
             android:name=".InsertGambarActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashScreen"
-            tools:ignore="DuplicateActivity"></activity>
     </application>
+
 </manifest>
