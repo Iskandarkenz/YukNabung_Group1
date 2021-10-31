@@ -10,33 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YukNabung_Group1">
         <activity
-            android:name=".insertafteraddtarget"
-            android:exported="true" />
-        <activity
-            android:name=".inserttarget"
-            android:exported="true" />
-        <activity
-            android:name=".insertduration"
-            android:exported="true" />
-        <activity
-            android:name=".insertprice"
-            android:exported="true" />
-        <activity
-            android:name=".insertname"
-            android:exported="true" />
-        <activity
-            android:name=".tambah_target"
-            android:exported="true" />
-        <activity
-            android:name=".Halaman1Activity"
-            android:exported="true" />
-        <activity
-            android:name=".DaftarActivity"
-            android:exported="true" />
-        <activity
-            android:name=".MasukActivity"
-            android:exported="true" />
-        <activity
             android:name=".Insert_Nominal_Sepatu"
             android:exported="true" />
         <activity
