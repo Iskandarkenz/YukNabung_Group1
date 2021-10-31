@@ -8,15 +8,18 @@
         <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/drawable/ic_history.xml" value="0.12222222222222222" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/drawable/ic_reload.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/drawable/ic_reminder.xml" value="0.12222222222222222" />
-        <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_history.xml" value="0.1796875" />
-        <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_insert_gambar.xml" value="0.1796875" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_reminder.xml" value="0.22" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_settings.xml" value="0.22" />
-        <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_tampilan.xml" value="0.1796875" />
-        <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_tampilan_edit_gitar.xml" value="0.1796875" />
         <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_ubah_profil_edit.xml" value="0.22" />
-        <entry key="..\:/Users/Aan/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/card_view.xml" value="0.1" />
+        <entry key="..\:/Users/Acer Swift 3/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/drawable/bg_gradasi.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Acer Swift 3/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Acer Swift 3/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/drawable/ic_baseline_keyboard_arrow_left_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Acer Swift 3/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/Acer Swift 3/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_history.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Acer Swift 3/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_insert_gambar.xml" value="0.10144927536231885" />
+        <entry key="..\:/Users/Acer Swift 3/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_tampilan.xml" value="0.161231884057971" />
+        <entry key="..\:/Users/Acer Swift 3/AndroidStudioProjects/YukNabung_Group1/app/src/main/res/layout/activity_tampilan_edit_gitar.xml" value="0.161231884057971" />
       </map>
     </option>
   </component>
