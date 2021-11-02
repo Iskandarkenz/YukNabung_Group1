@@ -7,9 +7,10 @@
     tools:context=".SplashScreen">
 
     <ImageView
+        android:id="@+id/imageView1"
         android:layout_width="255dp"
         android:layout_height="355dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo_splash_screen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

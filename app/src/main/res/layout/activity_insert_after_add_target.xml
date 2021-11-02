@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".insertafteraddtarget">
+    tools:context=".Activity_Insert_After_Add_Target">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -55,7 +55,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.086"
-        app:srcCompat="@drawable/sepatuu" />
+        app:srcCompat="@drawable/sepatu" />
 
     <TextView
         android:id="@+id/textView8"

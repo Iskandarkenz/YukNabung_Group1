@@ -1,3 +1,14 @@
 <resources>
-<string name="YukNabung_Group1">Android ListView With Image And Text</string>
+    <string name="YukNabung_Group1">Android ListView With Image And Text</string>
+    <string name="app_name" />
+
+    <string-array name="list_nabung">
+            <item>
+                Membeli Gitar Rp 1000.000,-
+                Uang anda sudah terkumpul sebanyak 75%
+                Rp 750.000,- dari Rp 1.000.000,-
+
+            </item>
+
+    </string-array>
 </resources>

@@ -35,7 +35,7 @@
         android:id="@+id/circleImageView"
         android:layout_width="214dp"
         android:layout_height="182dp"
-        android:src="@drawable/imagegitar"
+        android:src="@drawable/image_gitar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

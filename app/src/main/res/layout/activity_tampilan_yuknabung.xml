@@ -115,11 +115,11 @@
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="248dp"
+        android:layout_marginEnd="252dp"
         android:layout_marginBottom="148dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/sepatuu" />
+        app:srcCompat="@drawable/img_sepatu" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -130,7 +130,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.766"
-        app:srcCompat="@drawable/gitarr" />
+        app:srcCompat="@drawable/img_gitar" />
 
     <TextView
         android:id="@+id/textView"
@@ -168,9 +168,9 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="53dp"
-        android:layout_height="19dp"
-        android:layout_marginEnd="92dp"
-        android:layout_marginBottom="112dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="104dp"
         android:text="Gitar"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

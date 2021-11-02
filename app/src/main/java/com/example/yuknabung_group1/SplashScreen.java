@@ -4,8 +4,10 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,21 +15,27 @@ import androidx.core.content.ContextCompat;
 
 public class SplashScreen extends AppCompatActivity {
 
+    private static int splashInterval= 3000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         //menghilangkan ActionBar
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_start_menu);
 
-        final Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        setContentView(R.layout.activity_start_menu);
+        new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(getApplicationContext(), Activity_Login.class));
-                finish();
+                Intent a = new Intent(SplashScreen.this, Activity_Login.class);
+                        startActivity(a);
+                        this.finish();
             }
-        }, 3000L); //3000 L = 3 detik
-    }
+
+            private void finish() {
+            }
+        },splashInterval);
+
+        }
 }

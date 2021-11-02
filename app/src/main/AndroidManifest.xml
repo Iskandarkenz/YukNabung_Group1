@@ -10,16 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YukNabung_Group1">
         <activity
-            android:name=".tambah_target"
+            android:name=".Tampilan_Target_Selesai"
             android:exported="true" />
         <activity
-            android:name=".Halaman1Activity"
+            android:name=".Tampilan_Awal_Sedang_Berjalan"
             android:exported="true" />
         <activity
-            android:name=".DaftarActivity"
+            android:name=".Tampilan_Awal_Target_Selesai"
             android:exported="true" />
         <activity
-            android:name=".MasukActivity"
+            android:name=".Tampilan_Sedang_Berjalan"
+            android:exported="true" />
+        <activity
+            android:name=".Tampilan_yuknabung"
             android:exported="true" />
         <activity
             android:name=".Insert_Nominal_Sepatu"
@@ -31,26 +34,45 @@
             android:name=".Insert_Nominal_Gitar"
             android:exported="true" />
         <activity
-            android:name=".TampilanEditGitarActivity"
-            android:exported="true" />
-        <activity
             android:name=".TampilanActivity"
             android:exported="true" />
         <activity
-            android:name=".HistoryActivity"
+            android:name=".TampilanEditGitarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Nominal_Terkumpul"
+            android:exported="true"/>
+        <activity
+            android:name=".History_Activity"
             android:exported="true" />
         <activity
             android:name=".InsertGambarActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity_Add_Target"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_StartMenu"
+            android:exported="true"/>
+        <activity
+            android:name=".Sign_in_Activity"
+            android:exported="true"/>
+        <activity
+            android:name=".Activity_Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
-
 </manifest>

@@ -46,7 +46,7 @@
         android:layout_marginBottom="424dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/sepatuu" />
+        app:srcCompat="@drawable/img_sepatu" />
 
     <ImageView
         android:id="@+id/imageView23"

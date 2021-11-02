@@ -1,14 +1,14 @@
 package com.example.yuknabung_group1;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Gallery;
 import android.widget.ImageView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class Activity_UbahProfilEdit extends AppCompatActivity implements View.OnClickListener{
+public class Activity_Add_Target extends AppCompatActivity implements View.OnClickListener{
     static final int SELECT_PICTURE = 1;
 
     @Override

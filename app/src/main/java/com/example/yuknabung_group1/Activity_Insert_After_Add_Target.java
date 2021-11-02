@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class inserttarget extends AppCompatActivity {
+public class Activity_Insert_After_Add_Target extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_inserttarget);
+        setContentView(R.layout.activity_insert_after_add_target);
     }
 }

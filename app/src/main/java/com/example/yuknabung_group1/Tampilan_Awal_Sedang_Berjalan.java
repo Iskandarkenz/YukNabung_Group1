@@ -1,26 +1,25 @@
 package com.example.yuknabung_group1;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class Activity_Reminder extends AppCompatActivity {
+public class Tampilan_Awal_Sedang_Berjalan extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_reminder);
+        setContentView(R.layout.activity_tampilan_awal_sedang_berjalan);
 
-        ImageView back = findViewById(R.id.imageView9);
+        ImageView back = findViewById(R.id.imageView30);
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent back = new Intent(Activity_Reminder.this, Activity_Settings.class);
+                Intent back = new Intent(Tampilan_Awal_Sedang_Berjalan.this, Sign_in_Activity.class);
                 startActivity(back);
             }
         });

@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class insertname extends AppCompatActivity {
+public class Activity_Insert_Target extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_insertname);
+        setContentView(R.layout.activity_insert_target);
     }
 }
